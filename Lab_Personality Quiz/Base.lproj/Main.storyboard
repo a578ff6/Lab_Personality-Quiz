@@ -20,7 +20,7 @@
                                 <rect key="frame" x="8" y="376" width="377" height="100.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你的性格像什麼動物？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LD2-e9-cSX">
-                                        <rect key="frame" x="37" y="0.0" width="303.33333333333337" height="36"/>
+                                        <rect key="frame" x="37" y="0.0" width="303.33333333333331" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -244,6 +244,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="9rp-vM-Vdp"/>
                     <connections>
+                        <outlet property="multipleStackView" destination="7HP-hE-QuP" id="hx9-ZG-ZrN"/>
+                        <outlet property="rangeStackView" destination="IKk-5a-1zN" id="v2d-I6-0sU"/>
+                        <outlet property="singleStackView" destination="a8k-mC-fIL" id="A69-OT-rOS"/>
                         <segue destination="8zM-T9-3aH" kind="show" identifier="Results" id="l7D-0b-yPP"/>
                     </connections>
                 </viewController>
